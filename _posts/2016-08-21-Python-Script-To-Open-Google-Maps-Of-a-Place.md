@@ -21,7 +21,7 @@ I hope you will find it interesting.
 * Read the address from command line arguments or from the clipboard
 * Requires webbrowser module to automatically open default web browser of OS with the desired URL
 * Requires sys module to access command line stored in argv list
-* Requires pyperclip to access address from clip board. This module is not by default. To install this read my blog post [Access-Clipboard-Using-Python](https://itz-azhar.github.io//python/python3/2016/06/30/Access-clipboard-using-python.html)
+* Requires pyperclip to access address from clip board. This module is not by default. To install this read my blog post [Access-Clipboard-Using-Python](https://azhar22k.github.io//python/python3/2016/06/30/Access-clipboard-using-python.html)
 
 {% highlight python %}
 #webbrowser module helps in open default web browser of os
