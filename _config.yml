@@ -1,1 +1,56 @@
-theme: jekyll-theme-dinky
+title: Personal blOg oF Azhar Khan urf MAK.
+description: Mohammad Azhar Khan's learning's, experiences and knowleage.
+author: Mohammad Azhar Khan aka MAK
+github: https://github.com/itz-azhar
+about: Software Engineer. Loves Python. Knows Python, Flask, Django, Node.js, serverless,AWS lambda and many more.
+disqus_shortname: itz-azhar
+google_analytics: UA-58536691-1
+avatar_url: /static/img/avatar.gif
+leftfooter_url: /static/img/leftfootergif.gif
+
+enableTags: true
+tagarray: [python, django, unix, linux, ubuntu, macos]
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "https://www.facebook.com/itz.azhar.mak"
+    - icon: fa fa-spin fa-twitter
+      link: "https://twitter.com/itz_azhar_"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/itz-azhar"
+    - icon: fa fa-spin fa-stack-exchange
+      link: "https://stackexchange.com/users/6957651/azhar-khan"
+    - icon: fa-github
+      link: "https://github.com/itz-azhar"
+
+share:
+  twitter_username: mohd_azhar_khan
+  fb_appid: 1547971165269151
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://itz-azhar.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all

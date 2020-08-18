@@ -1,0 +1,24 @@
+[
+	{
+		"slug": "pollsapp",
+		"name": "PollsApp",
+		"image": "placeholder.jpg",
+		"url": "http://makpolls.herokuapp.com/",
+		"date": "Jan 2016",
+		"tags": ["Python","Django","Heroku","SQLite3"]
+	},
+	{
+		"name": "My Resume´",
+		"image": "placeholder.jpg",
+		"url": "https://azharkhanresume.herokuapp.com/",
+		"date": "May 2016",
+		"tags": ["Python","Django","Heroku","Bootstrap"]
+	},
+	{
+		"name": "Conference APP",
+		"image": "placeholder.jpg",
+		"url": "http://makconference.herokuapp.com/",
+		"date": "Jyly 2016",
+		"tags": ["Python","Django","Heroku","REST API"]
+	}
+]
